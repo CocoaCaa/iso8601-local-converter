@@ -1,0 +1,29 @@
+{
+    "name": "ISO8601 to Local datetime converter",
+    "description": "",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "scripting",
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "https://*/"
+    ],
+    "background": {
+        "service_worker": "background.ts"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "content/index.ts"
+            ],
+            "css": [
+                "content/index.css"
+            ]
+        }
+    ]
+}
