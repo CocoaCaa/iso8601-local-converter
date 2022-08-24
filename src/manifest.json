@@ -1,6 +1,6 @@
 {
     "name": "ISO8601 to Local datetime converter",
-    "description": "",
+    "description": "Create a context menu item for display local date/time from ISO8601 string",
     "version": "1.0",
     "manifest_version": 3,
     "author": "CocoaCaa (https://twitter.com/cocoa_caa)",
