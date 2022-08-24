@@ -3,6 +3,7 @@
     "description": "",
     "version": "1.0",
     "manifest_version": 3,
+    "author": "CocoaCaa (https://twitter.com/cocoa_caa)",
     "permissions": [
         "scripting",
         "contextMenus"
